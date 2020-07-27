@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import Tabs from './materialUI/Tabs'
+import ButtonDemo from './materialUI/ButtonDemo'
+import CheckBoxDemo from './materialUI/CheckBoxDemo';
+import RadioButtonDemo from './materialUI/RadioButtonDemo';
+import CardDemo from './materialUI/CardDemo';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Tabs/>
+     <ButtonDemo/>
+     <CardDemo/>
+    <CheckBoxDemo/>
+    <RadioButtonDemo/>
     </div>
   );
 }
